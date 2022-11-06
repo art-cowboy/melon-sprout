@@ -55,6 +55,11 @@ h2{
 
 }
 
+.icon img{
+    height:150px;
+    margin: 0 auto;
+}
+
 .icon:hover{
     background-image:radial-gradient(azure, azure, rgba(240, 255, 255, 0.515)) ;
     transform: scale(.9);

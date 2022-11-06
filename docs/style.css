@@ -210,6 +210,11 @@ a:visited{
     text-shadow: rgb(7, 118, 11) 2px 2px 3px;
 }
 
+.pick-me a:hover{
+    filter: drop-shadow(white 3px 3px 3px);
+    transition: .3s;
+}
+
 .bg{
     top: 0;
     z-index: -1;

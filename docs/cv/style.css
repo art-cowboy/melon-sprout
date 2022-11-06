@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition: .5s;
+}
+
+html{
+    padding-top:.5rem;
+    padding-left:.5rem;
+    background-color: rgba(240, 255, 255, .7);
+
+}
+
+
+@font-face {
+    font-family:vhs;
+    src: url(../font/vhs.ttf);
+}
+@font-face {
+    font-family:matrix;
+    src: url(../font/matrix.ttf);
+}
+@font-face {
+    font-family:comicsans;
+    src: url(../font/comicsans.ttf);
+}
+
+img{
+    display:block;
+    width:5%;
+    height: 5%;
+}
+
+ img:hover{
+    width:50%;
+    height:50%;
+} 
+
+h1{
+    font-family: monospace;
+    display: inline;
+    font-size: 18px;
+    color: dimgray;
+}
+
+h2{
+    font-family: monospace;
+    display: inline;
+    font-style: italic;
+    /* text-shadow: 1px 3px 2px mediumslateblue; */
+    font-size: 18px;
+}
+
+h3{
+    font-family: monospace;
+    display: inline;
+}
+
+h5{
+    font-family: monospace;
+    font-size: 1rem;
+    color: cornflowerblue;
+}
+
+/* h3:hover{
+    color: darkseagreen;
+} */
+
+a{
+    font-family: monospace;
+    color: palevioletred;
+    padding-left: 1rem;
+}
+a:visited{
+    color: palevioletred; 
+    text-decoration: none;
+}
+.year , a:hover{
+    color: mediumpurple;
+}
+
+
+#cv-main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 1rem;
+
+
+}
+
+.cv-item{
+    padding-left: 1rem;
+    padding-top: .5rem;
+    background-color: rgba(127, 255, 0,.15);
+
+    margin-top: 5px;
+
+}
+
+.title{
+    color: blueviolet;
+    width: max-content;
+    font-size: 2rem;
+
+
+}
+
+.title:hover , .year:hover{
+    transition: .5s;
+    width: max-content;
+    font-style: italic;
+    letter-spacing: 3rem;
+}
+
+.notes{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    padding: 6px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: rgba(240, 248, 255,1);
+}
+
+
+.title-link:visited{
+    color:rgb(94, 48, 62);
+}
+.title-link{
+    color:rgb(94, 48, 62);
+}
+.title-link:hover{
+    color:palevioletred;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    img{
+        display:block;
+        width:25%;
+        height:25%;
+    }
+    
+     img:hover{
+        width:100%;
+        height:100%;
+    } 
+}
