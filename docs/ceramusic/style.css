@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* cursor: url(../cursors/Mouse.cur), auto; */
+}
+@font-face {
+    font-family:silly;
+    src: url(../fonts/silly-tilt.otf);
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.457);
+}
+
+header{
+    padding-top: 2rem;
+    text-align: center;
+    height: 5rem;
+}
+
+h1{
+    font-family: silly;
+    color:chartreuse ;
+    text-shadow: palevioletred 2px 2px ;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    color:rebeccapurple;
+}
+
+.main{
+    margin: 3.5rem;
+}
+
+.icon-list{
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+   
+
+}
+
+.icon{
+    margin: 0 auto;
+    width: 170px;
+    padding: 1rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    border-width: 1rem;
+
+}
+
+.icon:hover{
+    background-image:radial-gradient(azure, azure, rgba(240, 255, 255, 0.515)) ;
+    transform: scale(.9);
+    transition: .5s;
+    filter: saturate(1.2);
+} 
+
+
+/* ul{
+    margin: 3.5rem;
+
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    gap: 2rem;
+}
+
+li{
+    display: flex;
+} */
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 550px) {
+
+  .icon-list{
+    display: block;
+  }
+
+  .icon{
+    width: max-content;
+  }
+}
