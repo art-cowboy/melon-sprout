@@ -355,6 +355,10 @@ span{
 
 @media only screen and (max-width: 600px) {
 
+    .pick-me img{
+        width:70%;
+    }
+    
     .icons{
         display: none;
     }
