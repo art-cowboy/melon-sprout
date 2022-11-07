@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>blank</title>
+</head>
+<body>
+    <div class="back">
+       <a href="../index.html"> back to ceramics</a>
+    </div>
+    <header>
+        <h1>select a clymbal</h1>
+        <br>
+        <h2>scroll for info</h2>
+    </header>
+         <main>
+            <div class="images">
+                <div class="thumbnail">
+                    <img src="blue-clymbal1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" onclick="myFunction(this);">
+                </div>
+                <div class="thumbnail">
+                    <img src="blue-clymbal2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." onclick="myFunction(this);">
+                </div>
+                <div class="thumbnail">
+                    <img src="pink-clymbal1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." onclick="myFunction(this);">
+                </div>
+                <div class="thumbnail">
+                    <img src="pink-clymbal2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." onclick="myFunction(this);">
+                </div>
+            </div>
+                 <!-- The expanding image container -->
+            <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            
+                <!-- Expanded image -->
+                <img id="expandedImg" >
+            
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+
+                 </main> 
+</body>
+    <script src="../script.js"></script>
+
+</html>
