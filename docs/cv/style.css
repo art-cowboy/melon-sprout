@@ -16,16 +16,8 @@ html{
 
 
 @font-face {
-    font-family:vhs;
-    src: url(../font/vhs.ttf);
-}
-@font-face {
-    font-family:matrix;
-    src: url(../font/matrix.ttf);
-}
-@font-face {
-    font-family:comicsans;
-    src: url(../font/comicsans.ttf);
+    font-family:silly;
+    src: url(../fonts/silly-tilt.otf);
 }
 
 img{
@@ -107,14 +99,14 @@ a:visited{
     color: blueviolet;
     width: max-content;
     font-size: 2rem;
+    font-family: silly;
 }
 
 .title:hover , .year:hover{
     transition: .5s;
-    width: max-content;
-    max-width: 50vw;
+    width:max-content ;
     font-style: italic;
-    letter-spacing: 3rem;
+    letter-spacing: 1rem;
 }
 
 .notes{
